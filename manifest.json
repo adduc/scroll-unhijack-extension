@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "mouse-scrolling.js" ],
+      "matches": [ "http://*/*", "https://*/*"]
+   } ],
+   "description": "Prevents web sites from modifying mouse scroll functionality.",
+   "name": "Scroll Unhijack",
+   "permissions": [ "https://*/*", "http://*/*" ],
+   "version": "0.1",
+   "manifest_version": 2
+}
